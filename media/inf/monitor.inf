@@ -51,7 +51,7 @@ ServiceBinary = %12%\monitor.sys
 
 [Strings]
 ; Non-localizable
-ReactOS = "ReactOS Project"
+ReactOS = "LiuNT Project"
 
 ; Localizable
 MonitorClassName = "Monitors"

@@ -79,11 +79,11 @@ COMMUNICATIONS=Communications
 GAMES=Games
 
 README_TITLE=Read Me
-README_DESC=ReactOS Read-Me file
+README_DESC=LiuNT Read-Me file
 
 CMD_TITLE=Command Prompt
 CMD_DESC=Open command prompt
-EXPLORER_TITLE=ReactOS Explorer
+EXPLORER_TITLE=LiuNT Explorer
 EXPLORER_DESC=Launch Explorer
 RAPPS_TITLE=ReactOS Applications Manager
 RAPPS_TITLE_SHORT=Applications Manager

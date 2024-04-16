@@ -1591,7 +1591,7 @@ KdbEnterDebuggerException(
     {
         /* Clear the flag and bugcheck the system */
         KdbpBugCheckRequested = FALSE;
-        KeBugCheck(MANUALLY_INITIATED_CRASH);
+        KeBugCheck(IRQL_NOT_LESS_OR_EQUAL);
     }
 
 continue_execution:

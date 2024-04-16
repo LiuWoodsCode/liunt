@@ -468,7 +468,7 @@ CheckVolume(
         /* Let the user decide whether to repair */
         if (Status == STATUS_DISK_CORRUPT_ERROR)
         {
-            PrintString("The file system on volume %S needs to be checked for problems.\r\n", DisplayName);
+            PrintString("The file system on volume %S has been marked 'dirty' and needs to be checked for problems.\r\n", DisplayName);
             PrintString("You may cancel this check, but it is recommended that you continue.\r\n");
         }
         else

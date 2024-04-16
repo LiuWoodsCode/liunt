@@ -1185,19 +1185,19 @@
 #define HAVE__VSNPRINTF 1
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "ros-dev@reactos.org"
+#define PACKAGE_BUGREPORT "liuwoods.scpfan@outlook.com"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "ReactOS"
+#define PACKAGE_NAME "LiuNT"
 
 /* Define to the full name and version of this package. */
 #define PACKAGE_STRING PACKAGE_NAME " " PACKAGE_VERSION
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "ReactOS"
+#define PACKAGE_TARNAME "LiuNT"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://reactos.org/"
+#define PACKAGE_URL "localhost:8000/liunt"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION KERNEL_VERSION_STR
