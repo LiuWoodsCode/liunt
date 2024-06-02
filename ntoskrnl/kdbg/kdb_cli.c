@@ -388,7 +388,7 @@ static const struct
 
     /* Others */
     { NULL, NULL, "Others", NULL },
-    { "bugcheck", "bugcheck", "Bugchecks the system.", KdbpCmdBugCheck },
+    { "bugcheck", "bugcheck", "Bugchecks the system. Just don't let Serial Designation V in.", KdbpCmdBugCheck },
     { "reboot", "reboot", "Reboots the system.", KdbpCmdReboot},
     { "filter", "filter [error|warning|trace|info|level]+|-[componentname|default]", "Enable/disable debug channels.", KdbpCmdFilter },
     { "set", "set [var] [value]", "Sets var to value or displays value of var.", KdbpCmdSet },
