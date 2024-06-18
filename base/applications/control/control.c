@@ -82,7 +82,7 @@ OpenShellFolder(LPWSTR lpFolderCLSID)
 
     return (INT_PTR)ShellExecuteW(NULL,
                                   L"open",
-                                  L"explorer.exe",
+                                  GetShellWindow() ? L"explorer.exe" : L"filebrowser.exe",
                                   szParameters,
                                   NULL,
                                   SW_SHOWDEFAULT) > 32;
