@@ -734,7 +734,7 @@ static	void	Control_DoWindow(CPanel* panel, HWND hWnd, HINSTANCE hInst)
 {
     ShellExecuteW(NULL,
                   L"open",
-                  L"explorer.exe",
+                  GetShellWindow() ? L"explorer.exe" : L"filebrowser.exe",
                   L"::{20D04FE0-3AEA-1069-A2D8-08002B30309D}\\::{21EC2020-3AEA-1069-A2DD-08002B30309D}",
                   NULL,
                   SW_SHOWDEFAULT);
