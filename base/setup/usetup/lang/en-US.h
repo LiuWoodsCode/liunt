@@ -607,7 +607,7 @@ static MUI_ENTRY enUSUpgradePageEntries[] =
     {
         6,
         10,
-        "can attempt to repair it.",
+        "can attempt to repair it. (Update is broken)",
         TEXT_STYLE_NORMAL,
         TEXT_ID_STATIC
     },
