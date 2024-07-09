@@ -22,7 +22,7 @@
 
 #include <winreg.h>
 
-TCHAR m_Text[MAX_PATH] = _T("Doodling Rocks!");
+TCHAR m_Text[MAX_PATH] = _T("N x Uzi");
 
 VOID LoadSettings(VOID)
 {

@@ -1185,7 +1185,7 @@
 #define HAVE__VSNPRINTF 1
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "liuwoods.scpfan@outlook.com"
+#define PACKAGE_BUGREPORT "darkXwolf17.2024@outlook.com"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "LiuNT"

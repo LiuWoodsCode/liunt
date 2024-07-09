@@ -87,7 +87,14 @@ BOOL IsCriticalProcess(HANDLE hProcess)
                                        NULL);
 
     if (NT_SUCCESS(status) && BreakOnTermination)
-        return TRUE;
+    /* Force the check as false, we want to be able to kill any process
+       temporary as I don't want to deal with removing all of the checks
+       instead just forcing it to false 
+       
+       Process Explorer can do this, so why not taskmgr?
+
+       Hopefully JCJenson doesn't get mad at me for this. */
+        return FALSE;
 
     return FALSE;
 }
