@@ -15,5 +15,8 @@ add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/Abduction.png DESTINATION reactos/W
 add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/DoodleThings.png DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/Swaggy.jpg DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/LiuNT.jpg DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/BloomDrones.PNG DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/Serial_Designation_N.jpeg DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/Uzi_Doorman.png DESTINATION reactos/Web/Wallpaper FOR all)
 add_subdirectory(Angelus)
 add_subdirectory(Silhouette)
