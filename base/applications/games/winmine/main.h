@@ -39,8 +39,8 @@
 #define EXPERT_COLS           30
 #define EXPERT_ROWS           16
 
-#define MAX_COLS        30
-#define MAX_ROWS        24
+#define MAX_COLS        45
+#define MAX_ROWS        45
 
 #define BOTTOM_MARGIN 20
 #define BOARD_WMARGIN 5
